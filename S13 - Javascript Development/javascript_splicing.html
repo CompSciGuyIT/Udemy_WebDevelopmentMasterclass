@@ -1,0 +1,23 @@
+<!doctype html>
+
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Javascript Arrays</title>
+	</head>
+	
+	<body>
+		<p id="list"></p>
+
+		<script type="text/javascript">
+			var fruits = ["Apple", "Orange", "Banana", "Nectarine", "Peach", "Mango"];
+
+			fruits.splice(2, 0, "Lemon", "Mandarin");
+
+			document.getElementById("list").innerHTML = fruits.join(", ");
+
+		</script>
+	</body>
+
+
+</html>
