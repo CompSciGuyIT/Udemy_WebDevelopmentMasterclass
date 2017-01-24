@@ -1,0 +1,19 @@
+<!doctype html>
+
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width = device-width, initial-scale = 1">
+		<title>BG Colour Changer</title>
+	</head>
+	
+	<body>
+		<script type="text/javascript">
+			var bgcolor = new Array("#FF0000", "#000000", "#FFFF00", "#008000", "#0000FF", "#800080", "#FF4500", "#FF8C00", "#FF7F50", "#FA8072", "#D8BFD8", "#BA55D3", "#483D8B", "#7FFF00", "#00FF00", "#00FF7F", "#2E8B57", "#6B8E23", "#66CDAA", "#008B8B", "#00FFFF", "#87CEEB", "#B8860B");
+			document.body.style.background = bgcolor[Math.floor(Math.random()*bgcolor.length)];
+		</script>
+		<p>Refresh page to change background colour.</p>
+	</body>
+
+
+</html>
