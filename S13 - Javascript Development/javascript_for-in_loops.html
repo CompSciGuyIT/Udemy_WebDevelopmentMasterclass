@@ -1,0 +1,23 @@
+<!doctype html>
+
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Javascript Condtitionals</title>
+	</head>
+	
+	<body>
+		<p id="details"></p>
+		<script type="text/javascript">
+			var txt = "";
+			var person = {fname:"John", lname:"Smith", age:30};
+
+			for (var x in person) {
+				txt += person[x] + " ";
+			}
+			document.getElementById("details").innerHTML = txt;
+		</script>
+	</body>
+
+
+</html>
