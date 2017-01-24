@@ -1,0 +1,28 @@
+<!doctype html>
+
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Javascript Arrays</title>
+	</head>
+	
+	<body>
+		<p id="fruit"></p>
+		<p id="cars"></p>
+
+		<script type="text/javascript">
+			var fruits = ["Apple", "Orange", "Banana", "Nectarine", "Peach", "Mango"];
+
+			var carz = ["Tesla", "Holden", "Ford", "Toyota", "BMW", "Mercedes", "Porche", "Ferrari"];
+
+			fruits.sort();
+			carz.reverse();
+
+			document.getElementById("fruit").innerHTML = fruits.join(", ");
+			document.getElementById("cars").innerHTML = carz.join(", ");
+
+		</script>
+	</body>
+
+
+</html>
